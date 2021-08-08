@@ -8345,7 +8345,7 @@ body {
 .form_button {
   margin-top: 10rem;
   font-size: x-large;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   border: none;
 }
 
@@ -8364,12 +8364,16 @@ p {
   font-size: xxx-large;
 }
 
+.bc_buttons {
+  position: relative;
+}
+
 .button {
   margin: 4rem;
   font-size: large;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   border: none;
-  padding: 4px 14px;
+  padding: 0.5rem 1rem;
   font-weight: bolder;
 }
 
@@ -8409,9 +8413,9 @@ th {
   background-color: #00e676;
   color: darkslategray;
   font-weight: bolder;
-  border-radius: 4px;
+  border-radius: 0.5rem;
   border: none;
-  padding: 4px 14px;
+  padding: 0.5rem 1rem;
 }
 
 .edit_button:hover {
@@ -8420,7 +8424,7 @@ th {
 }
 
 .delete_input {
-  border-radius: 4px;
+  border-radius: 0.5rem;
   outline: none;
   border: none;
   font-size: small;
@@ -8431,9 +8435,9 @@ th {
   background-color: #ff1744;
   color: whitesmoke;
   font-weight: bolder;
-  border-radius: 4px;
+  border-radius: 0.5rem;
   border: none;
-  padding: 4px 14px;
+  padding: 0.5rem 1rem;
 }
 
 .delete_button:hover {
@@ -8444,9 +8448,12 @@ th {
 .back_button {
   font-weight: bolder;
   font-size: medium;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   border: none;
-  padding: 4px 14px;
+  position: absolute;
+  top: 4.5rem;
+  left: 20rem;
+  padding: 0.5rem 1rem;
 }
 
 .back_button:hover {
@@ -8456,33 +8463,47 @@ th {
 input,
 select,
 textarea {
-  padding: 4px 24px;
+  padding: 0.5rem 2rem;
   margin: 1rem;
   outline: none;
   resize: none;
-  border-radius: 4px;
+  border-radius: 0.5rem;
   border: none;
-  border-left: 4px solid #ff1744;
+  border-left: 0.4rem solid #ff1744;
 }
 
 #pwarehouses_2,
 #pwarehouses_3 {
-  border-left: 4px solid white;
+  border-left: 0.4rem solid white;
 }
 
 .create_button {
   background-color: #00e676;
   color: darkslategray;
   font-weight: bolder;
-  border-radius: 4px;
-  border: none;
   font-size: large;
-  padding: 4px 14px;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.5rem 2rem;
   margin: 2rem;
 }
 
 .create_button:hover {
   background-color: #00c853;
   font-weight: normal;
+}
+
+.cancel_button {
+  background-color: #ff1744;
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: medium;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.5rem 2rem;
+}
+
+.cancel_button:hover {
+  background: #b0bec5;
 }
 

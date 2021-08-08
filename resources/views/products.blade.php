@@ -13,15 +13,17 @@
 
     <h1 class="tittle">Products List</h1>
 
-    <!-- Back to HOME -->
-    <form action="/">
-        <button class="back_button">Back</button>
-    </form>
+    <div class="bc_buttons">
+        <!-- Back to HOME -->
+        <form action="/">
+            <button class="back_button">Back</button>
+        </form>
 
-    <!-- Go to CREATE -->
-    <form action="/products/create">
-        <button class="button">Create product</button>
-    </form>
+        <!-- Go to CREATE -->
+        <form action="/products/create">
+            <button class="button">Create product</button>
+        </form>
+    </div>
 
 
     <table>

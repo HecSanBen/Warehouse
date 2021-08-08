@@ -70,13 +70,13 @@
         <textarea name="pnotes" placeholder="Notes about the product ..." rows="10" cols="100"
             required>{{ old('pnotes') }}</textarea><br>
 
-        <button type="submit" value="submit" class="create_button">Create product</button><br>
+        <button type="submit" value="submit" class="create_button">Create</button><br>
 
     </form>
 
     <!-- Go to PRODUCTS -->
     <form action="/products">
-        <button class="back_button">Cancel</button>
+        <button class="cancel_button">Cancel</button>
     </form>
 
     <script>

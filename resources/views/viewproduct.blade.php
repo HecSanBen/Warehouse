@@ -62,14 +62,14 @@
 
         <textarea name="pnotes" placeholder="Notes about the product ..." rows="10"
             cols="100">{{ $product->product_notes }}</textarea><br>
-        <button type="submit" class="create_button">Save changes</button><br>
+        <button type="submit" class="create_button">Save</button><br>
 
     </form>
 
 
     <!-- Back to PRODUCTS -->
     <form action="/products">
-        <button class="back_button">Cancel</button>
+        <button class="cancel_button">Cancel</button>
     </form>
 
 @endsection
