@@ -1,0 +1,167 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+body {
+    text-align: center;
+}
+
+// Home
+.home_tittle {
+    margin-top: 30rem;
+    font-size: xxx-large;
+}
+
+.form_button {
+    margin-top: 10rem;
+    font-size: x-large;
+    border-radius: 8px;
+    border: none;
+}
+
+.form_button:hover {
+    box-shadow: 5px 2px 2px #666;
+}
+
+p {
+    margin-top: 14rem;
+    font-weight: lighter;
+}
+
+//  Products List
+.tittle {
+    margin-top: 5rem;
+    font-size: xxx-large;
+}
+
+.button {
+    margin: 4rem;
+    font-size: large;
+    border-radius: 8px;
+    border: none;
+    padding: 4px 14px;
+    font-weight: bolder;
+}
+
+.button:hover {
+    box-shadow: 5px 2px 2px #666;
+}
+
+table {
+    margin: auto;
+    width: 77%;
+}
+
+thead {
+    font-size: medium;
+    border-bottom: 4px solid mediumturquoise;
+}
+
+tbody {
+    font-size: small;
+}
+
+td:nth-child(1) {
+    font-weight: bolder;
+    font-size: medium;
+}
+
+tr {
+    border-bottom: 1px solid #b0bec5;
+}
+
+th {
+    text-align: center;
+}
+
+.edit_button {
+    background-color: #00e676;
+    color: darkslategray;
+    font-weight: bolder;
+    border-radius: 4px;
+    border: none;
+    padding: 4px 14px;
+}
+
+.edit_button:hover {
+    background-color: #00c853;
+    font-weight: normal;
+}
+
+.delete_input {
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.delete_button {
+    background-color: #ff1744;
+    color: whitesmoke;
+    font-weight: bolder;
+    border-radius: 4px;
+    border: none;
+    padding: 4px 14px;
+}
+
+.delete_button:hover {
+    background-color: #d50000;
+    font-weight: normal;
+}
+
+.back_button {
+    font-weight: bolder;
+    font-size: medium;
+    border-radius: 8px;
+    border: none;
+    padding: 4px 14px;
+}
+
+.back_button:hover {
+    background: #b0bec5;
+}
+
+
+// Create Product
+input,
+select,
+textarea {
+    padding: 4px 24px;
+    margin: 1rem;
+    outline: none;
+    resize: none;
+    border-radius: 4px;
+    border: none;
+    border-left: 4px solid #ff1744;
+}
+
+#pwarehouses_2,
+#pwarehouses_3 {
+    border-left: 4px solid white;
+}
+
+.create_button {
+    background-color: #00e676;
+    color: darkslategray;
+    font-weight: bolder;
+    border-radius: 4px;
+    border: none;
+    font-size: large;
+    padding: 4px 14px;
+    margin: 2rem;
+}
+
+.create_button:hover {
+    background-color: #00c853;
+    font-weight: normal;
+}
+
+
+// View & Edit page
